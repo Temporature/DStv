@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">DStv App</string>
+    //permission
+    <string name="enable_permission">Enable Permission</string>
+    <string name="grant_call_permission_message">Call Phone access permission is required in order to make call</string>
+    <string name="microphone_permission_message">Microphone access is required in order to record audio</string>
+    <string name="camera_permission_message">Camera access permission is required in order to capture photo</string>
+    <string name="sms_permission_message">SMS access permission is required in order to capture OTP</string>
+    <string name="location_permission_message">Location permission is required, TO make your experience better</string>
+    <string name="read_external_storage_permission_message">Read External Storage access permission is required in order to store captured photo, store recorded audio</string>
+    <string name="loading">Loding...</string>
+
+    <string name="server_error_title">Your request could not be completed</string>
+    <string name="server_error_message">An unforeseen error was encountered on the server.</string>
+    <string name="server_error_message_no_contact_no">An unforeseen error was encountered on the server.</string>
+    <string name="task_name_error_watcher">Task name must be 20 characters or less</string>
+    <string name="savings_tracker_inactive_label">Set a goal</string>
+    <string name="savings_tracker_active_label">Savings tracker - </string>
+    <string name="todo_list_dstv">DStv To Do List</string>
+    <string name="priority_high">High</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_low">Low</string>
+    <string name="priority">Set Task Priority</string>
+    <string name="task">Task</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="manadatory_fields">All Fields are mandatory</string>
+    <string name="description_not_empty">Description Should not be empty</string>
+    <string name="task_not_empty">Task Should not be empty</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="mark_as_completed">Mark as completed</string>
+    <string name="task_done">Task has alredy done</string>
+    <string name="dstv">DStv</string>
+    <string name="no_active_task">No active task</string>
+    <string name="task_description_error_watcher">Task description must be 100 characters or less</string>
+
+</resources>

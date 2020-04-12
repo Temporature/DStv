@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundCornerProgressBar">
+        <attr name="rcReverse" format="boolean" />
+        <attr name="rcProgress" format="float" />
+        <attr name="rcMax" format="float" />
+        <attr name="rcSecondaryProgress" format="float" />
+        <attr name="rcBackgroundPadding" format="dimension" />
+        <attr name="rcRadius" format="dimension" />
+        <attr name="rcProgressColor" format="color" />
+        <attr name="rcSecondaryProgressColor" format="color" />
+        <attr name="rcBackgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="DSTVProgressView">
+        <attr name="multiply_progress_inactive_text" format="string" />
+        <attr name="multiply_progress_active_label" format="string" />
+        <attr name="multiply_progress_active_text" format="string" />
+        <attr name="multiply_progress_active_label_text" format="string"/>
+        <attr name="multiply_progress" format="float" />
+        <attr name="multiply_progress_max" format="float" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="RoundedCornerCardView">
+        <attr name="titleText" format="string" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="impactImage" format="reference" />
+        <attr name="subTitleText" format="string" />
+    </declare-styleable>
+
+
+</resources>

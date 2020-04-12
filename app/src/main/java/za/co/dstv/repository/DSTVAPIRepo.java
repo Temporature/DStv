@@ -8,5 +8,5 @@ import retrofit2.http.GET;
 public interface DSTVAPIRepo {
 
     @GET("/TODO")
-    Call<TodoModel> getPersonData();
+    Call<TodoModel> getData();
 }

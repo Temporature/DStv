@@ -11,12 +11,12 @@ import za.co.dstv.model.TodoModel;
 
 import java.util.List;
 
-public class TodoListRepository {
+public class TodoDatabaseRepository {
 
     private TodoDao todoDao;
     private LiveData<List<TodoModel>> listMutableLiveData;
 
-    public TodoListRepository(Application application){
+    public TodoDatabaseRepository(Application application){
         TodoDatabase database = TodoDatabase.getInstance(application);
         todoDao = database.todoDao();
         listMutableLiveData = todoDao.getAllData();

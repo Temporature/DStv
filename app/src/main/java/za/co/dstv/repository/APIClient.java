@@ -41,23 +41,4 @@ public class APIClient {
         return retrofit.create(DSTVAPIRepo.class);
     }
 
-
-    /*private static Retrofit getRetroInstance()
-    {
-
-
-
-
-        return new Retrofit.Builder().baseUrl(BASE_URL).addConverterFactory(GsonConverterFactory.create(gson)).build();
-
-    }
-
-
-    public static APIService getApiService()
-    {
-
-        return getRetroInstance().create(APIService.class);
-
-
-    }*/
 }

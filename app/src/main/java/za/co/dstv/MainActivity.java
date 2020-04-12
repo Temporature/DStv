@@ -2,10 +2,8 @@ package za.co.dstv;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.res.Configuration;
 import android.os.Bundle;
 
-import za.co.dstv.fragments.MasterFragment;
 import za.co.dstv.fragments.TodoListFragment;
 import za.co.dstv.utils.AppHelper;
 

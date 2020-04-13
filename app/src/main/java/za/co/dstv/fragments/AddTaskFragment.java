@@ -196,6 +196,7 @@ public class AddTaskFragment extends Fragment {
 
                 etTask.setText(model.getTitle());
                 etDescription.setText(model.getSubTitle());
+                btnSave.setText(R.string.update);
             }
         } catch (Exception e) {
             e.printStackTrace();

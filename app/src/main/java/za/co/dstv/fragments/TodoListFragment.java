@@ -81,7 +81,7 @@ public class TodoListFragment extends Fragment implements UpdateDatabase {
     }
 
     /*This method is responsible to observe data change in database
-        If Database is empty get the data from API */
+         */
     private void getDataFromDataBase() {
         dstvDBViewModel.getAllData().observe(getViewLifecycleOwner(), new Observer<List<TodoModel>>() {
             @Override
@@ -103,8 +103,8 @@ public class TodoListFragment extends Fragment implements UpdateDatabase {
         getDataFromDataBase();
 
     }
-    Double count ;
-    Double countTask;
+    private Double count ;
+    private Double countTask;
     private void calculateProgress() {
         try {
 

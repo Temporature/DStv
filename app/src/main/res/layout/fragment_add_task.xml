@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:autofillHints="@string/task"
                 android:hint="@string/task"
-                android:maxLength="30"
+                android:maxLength="20"
                 android:maxLines="1"
                 android:textColorHint="@color/black" />
 

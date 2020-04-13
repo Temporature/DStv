@@ -42,7 +42,7 @@ android {
         variant.outputs.all { output ->
             def date = new Date()
             def formattedDate = date.format('ddMMMyyyy')
-            outputFileName = "Zapper_${variant.name}_v${variant.versionName}_${formattedDate}.apk"
+            outputFileName = "DStv_${variant.name}_v${variant.versionName}_${formattedDate}.apk"
         }
     }
 }

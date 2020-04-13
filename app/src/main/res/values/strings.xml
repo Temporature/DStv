@@ -16,7 +16,7 @@
     <string name="task_name_error_watcher">Task name must be 20 characters or less</string>
     <string name="savings_tracker_inactive_label">Set a goal</string>
     <string name="savings_tracker_active_label">Savings tracker - </string>
-    <string name="todo_list_dstv">DStv To Do List</string>
+    <string name="todo_list_dstv">To Do List</string>
     <string name="priority_high">High</string>
     <string name="priority_medium">Medium</string>
     <string name="priority_low">Low</string>
@@ -24,15 +24,16 @@
     <string name="task">Task</string>
     <string name="description">Description</string>
     <string name="save">Save</string>
-    <string name="manadatory_fields">All Fields are mandatory</string>
-    <string name="description_not_empty">Description Should not be empty</string>
-    <string name="task_not_empty">Task Should not be empty</string>
+    <string name="manadatory_fields">All fields are mandatory</string>
+    <string name="description_not_empty">Description should not be empty</string>
+    <string name="task_not_empty">Task should not be empty</string>
     <string name="edit">Edit</string>
     <string name="delete">Delete</string>
     <string name="mark_as_completed">Mark as completed</string>
-    <string name="task_done">Task has alredy done</string>
+    <string name="task_done">Task has already done</string>
     <string name="dstv">DStv</string>
     <string name="no_active_task">No active task</string>
     <string name="task_description_error_watcher">Task description must be 100 characters or less</string>
+    <string name="update">Update</string>
 
 </resources>

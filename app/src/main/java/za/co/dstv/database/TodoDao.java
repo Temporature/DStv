@@ -27,7 +27,7 @@ public interface TodoDao {
     @Query("DELETE FROM "+ AppConstants.TABLE_TODO)
     void deleteAllNotes();
 
-    @Query("SELECT * FROM "+AppConstants.TABLE_TODO)
+    @Query("SELECT * FROM "+AppConstants.TABLE_TODO+" ORDER BY id DESC")
     LiveData<List<TodoModel>> getAllData();
 
 
